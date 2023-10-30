@@ -8,7 +8,7 @@ public class ArrayRataNilai14 {
         double rata2;
 
         for (int i = 0; i < nilaiMhs.length; i++) {
-            System.out.print("Masukkan Nilai Mahasiswa ke-" + i + ": ");
+            System.out.print("Masukkan Nilai Mahasiswa ke-" + (i+1) + ": ");
             nilaiMhs[i] = sc.nextInt();
         }
 
